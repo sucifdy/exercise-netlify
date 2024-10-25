@@ -1,5 +1,5 @@
-import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
+import './App.css'
+import { Routes, Route, Link } from 'react-router-dom'
 import EditPhoto from './routes/EditPhoto';
 import Home from './routes/Home';
 import Photos from './routes/Photos';
@@ -34,9 +34,3 @@ const App = () => {
 };
 
 export default App;
-
-const url = "https://playful-kataifi-a0e852.netlify.app/"; // TODO: replace this
-const studentName = "Suci Fitriyah Darmayanti"; // TODO: replace this
-const studentId = "FS12194279"; // TODO: replace this
-
-export { url, studentName, studentId };
